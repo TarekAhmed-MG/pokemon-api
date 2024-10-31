@@ -1,4 +1,4 @@
-name := """githubTutorial"""
+name := """pokemon-api"""
 organization := "com.example"
 
 ThisBuild / version := "0.1.0-SNAPSHOT"
@@ -12,7 +12,7 @@ ThisBuild / scalacOptions ++= Seq("-target:jvm-1.8")
 
 lazy val root = (project in file("."))
   .settings(
-    name := "githubTutorial"
+    name := "pokemon-api"
   )
   .enablePlugins(PlayScala)
 
